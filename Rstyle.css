@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: gray;
+}
+
+/*Partie header*/
+.Rheader {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 10px 5px 5px whitesmoke;
+}
+
+.Rheader h1 {
+    margin: 0;
+    font-size: 1.9em;
+}
+
+
+/*Partie barre de navigation*/
+.Rnav-bar {
+    position: absolute ;
+    right: 20px;
+    top: 30px;
+    
+
+}
+.Rnav-bar  a {
+    margin: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+}
+
+.Rnav-bar a:hover {
+    text-decoration: underline;
+}
+
+
+/*Partie section*/
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightgray;
+    width: fit-content;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.content {
+    padding: 25px 20px 20px 30px;
+} 
+.content > h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+}
+.content > h2 {
+    margin-top: 10px;
+} 
+.content  a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.content a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.mails {
+    display: flex;
+    align-items: center;
+}
+
+.mails img:first-of-type {
+    padding-right: 10px;
+}
+.mails img:last-of-type {
+    padding: 0 10px 0 20px;
+}
+.mails a {
+    opacity: 0.5 ;
+}
+.mails a:hover {
+    opacity: 1;
+}
+.mails {
+    display: flex;
+}
+
+.textes {
+    display: flex;
+    flex-direction: column;
+}
+.textes p {
+    width: 600px;
+}
+.icon {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 150px 150px 150px 150px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.icon i {
+    font-size: 35px;
+    color: gray;
+}
+.icon p {
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*Partie sidebar*/
+.asidebar {
+    width: 20%; 
+    background-color: gray;
+    padding: 50px 10px 0;
+    position: relative; 
+}
+.batterie_logo {
+    width: 150px; 
+    height: 150px;
+    margin: 47px auto;
+}
+.batterie_logo img {
+    width: 100%;
+    background-color: gray;
+}
+.aside_titles {
+    text-align: right;
+    margin-top: 70px;
+    padding: 0px 10px 0 30px; 
+}
+.aside_titles h2 {
+    margin-top: 0;
+}
+.aside_titles hr:first-of-type{
+    margin-top: 107px;
+}
+.aside_titles hr:nth-of-type(2){
+    margin-top: 66px;
+}
+.aside_titles hr:nth-of-type(3){
+    margin-top: 150px;
+}
+.aside_titles hr:last-of-type {
+    margin-top: 123px;
+}
+
+/*Partie footer*/
+.Rfooter {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 5px 5px 10px whitesmoke;
+}
+.Rfooter p {
+    margin: 0;
+    text-align: center;
+}

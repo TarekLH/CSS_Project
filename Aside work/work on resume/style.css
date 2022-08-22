@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: gray;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: lightgray;
+    position: absolute;
+    left: 215.35px;
+    padding: 10px 0;
+}
+.content {
+    padding: 25px 20px 0 30px;
+} 
+.content > h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+}
+.content > h2 {
+    margin-top: 10px;
+} 
+.content  a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.content a:hover {
+    text-decoration: underline;
+    
+    opacity: 1;
+}
+
+.mails {
+    display: flex;
+    align-items: center;
+}
+
+.mails img:first-of-type {
+    padding-right: 10px;
+}
+.mails img:last-of-type {
+    padding: 0 10px 0 20px;
+}
+.mails a {
+    opacity: 0.5 ;
+}
+.mails a:hover {
+    opacity: 1;
+}
+.mails {
+    display: flex;
+}
+.textes {
+    display: flex;
+    flex-direction: column;
+}
+.textes p {
+    width: 600px;
+}
+
+.asidebar {
+    
+    
+    width: 20%;
+    
+    
+    background-color: gray;
+    padding: 50px 10px 0;
+    position: relative;
+    
+}
+.batterie_logo {
+    width: 150px; 
+    height: 150px;
+    margin: 47px auto;
+    
+
+}
+.batterie_logo img {
+    width: 100%;
+    background-color: gray;
+}
+.aside_titles {
+    text-align: right;
+    margin-top: 70px;
+    padding: 0px 10px 0 30px;
+   
+}
+.aside_titles h2 {
+    margin-top: 0;
+}
+.aside_titles hr:first-of-type{
+    margin-top: 107px;
+}
+.aside_titles hr:nth-of-type(2){
+    margin-top: 66px;
+}
+.aside_titles hr:nth-of-type(3){
+    margin-top: 150px;
+}
+.aside_titles hr:last-of-type {
+    margin-top: 123px;
+}

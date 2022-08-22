@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Partie header*/
+.Aheader {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    
+}
+
+.Aheader h1 {
+    margin: 0;
+    font-size: 1.9em;
+}
+
+
+/*Partie barre de navigation*/
+.Anav-bar {
+    position: absolute ;
+    right: 20px;
+    top: 30px;
+    
+
+}
+.Anav-bar  a {
+    margin: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+}
+
+.Anav-bar a:hover {
+    text-decoration: underline;
+}
+
+
+/*Partie section*/
+.Asection {
+    background-color: lightgray;
+    padding-top: 80px;
+}
+.Abanniere {
+    width: 100%;
+}
+.Aarticle {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.Asection a {
+    color: blue;
+}
+
+.img_village {
+    border-radius: 30px;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+/*Partie footer*/
+.Afooter {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+}
+.Afooter p {
+    margin: 0;
+    text-align: center;
+}

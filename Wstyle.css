@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/*Partie header*/
+.Wheader {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.Wheader h1 {
+    margin: 0;
+    font-size: 1.9em;
+}
+
+
+/*Partie barre de navigation*/
+.Wnav-bar {
+    position: absolute ;
+    right: 20px;
+    top: 30px;
+    
+
+}
+.Wnav-bar  a {
+    margin: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+}
+
+.Wnav-bar a:hover {
+    text-decoration: underline;
+}
+
+
+/*Partie section*/
+
+.Wsection {
+    padding-top: 100px;
+    padding-bottom: 1px ;
+    background-color: lightgray;
+}
+
+.Wsection h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container {
+    max-width: 940px;
+    margin: 50px auto;
+}
+
+
+.article_box {
+    position: relative;
+    margin: 30px 0px;
+    padding-left: 321px;
+    min-height: 225px;
+}
+
+
+.article_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    margin-right: 20px;
+}
+.article_img img {
+    width: 301px;
+    height: auto;
+    border: solid;
+    border-color: gray;
+    border-radius: 25% 10%;
+}
+
+
+.article_date {
+    margin-bottom: 5px;
+}
+
+
+.article_title {
+    margin-top: 0;
+}
+.article_title a {
+    text-decoration: none;
+    color: inherit;
+}
+.article_title a:hover {
+    text-decoration: underline;
+}
+
+
+/*Partie footer*/
+.Wfooter {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+}
+.Wfooter p {
+    margin: 0;
+    text-align: center;
+}

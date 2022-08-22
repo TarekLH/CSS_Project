@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: lightgrey;
+}
+
+/*Partie header*/
+.Cheader {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.Cheader h1 {
+    margin: 0;
+    font-size: 1.9em;
+}
+
+
+/*Partie barre de navigation*/
+.Cnav-bar {
+    position: absolute ;
+    right: 20px;
+    top: 30px;
+    
+
+}
+.Cnav-bar  a {
+    margin: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+}
+
+.Cnav-bar a:hover {
+    text-decoration: underline;
+}
+
+
+/*Partie section*/
+.Csection {
+    padding-top: 120px;
+}
+
+
+.top {
+    display: flex;
+    margin-left: 20px;
+    max-height: 300px;
+    justify-content: center;
+}
+
+.img {
+    margin-right: 10px;
+}
+.img img {
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+.personal {
+    margin-left: 10px;
+    padding: 20px;
+}
+.personal h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.separationP {
+    height: 1px;
+    background-color: gray;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.detail {
+    position: relative;
+}
+.detail p {
+    margin: 0 30px;
+}
+.detail i {
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.detail a {
+    color: inherit;
+    opacity: 0.5;
+}
+.detail a:hover {
+    opacity: 1;
+}
+.middle {
+    display: flex;
+    justify-content: space-around;
+}
+.middle form {
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.middle form h1 {
+    font-size: 40px;
+    margin: 0;
+}
+.separation {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+.corps_form {
+    display: flex;
+    margin-bottom: 30px;
+}
+.grp {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.left input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: gray;
+    border-radius: 5px;
+}
+.grp i {
+    position: absolute;
+    top: 44px;
+    left: 8px;
+    color: gray;
+}
+
+.right {
+    margin-left: 40px;
+}
+.right .grp {
+    height: 100%;
+}
+.right .grp textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 80%;
+}
+.form_foot {
+    text-align: center;
+}
+.form_foot button {
+    margin-top: 10px;
+    background-color: gray;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer ;
+    transition: transform 0.5s;
+}
+.form_foot:hover {
+    transform: scale(1.05);
+}
+
+.bot {
+    padding: 30px;
+}
+.bot h2 {
+    margin: 0;
+    font-size: 40px;
+
+}
+.bot .separation2 {
+    height: 1px;
+    background-color: gray;
+    width: 100%;
+    margin-bottom: 40px
+
+}
+.bot iframe {
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/*Partie footer*/
+.Cfooter {
+    background-color:  gray;
+    color: #fff;
+    padding: 20px;
+}
+.Cfooter p {
+    margin: 0;
+    text-align: center;
+}
